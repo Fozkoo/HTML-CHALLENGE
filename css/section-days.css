@@ -1,4 +1,5 @@
 .container-tarjets-days {
+    margin-top: 55px;
     display: flex;
     flex-direction: column;
     width: 1200px;
@@ -124,22 +125,112 @@
 
 .container-tarjets-days .card:nth-child(9) .circle,
 .container-tarjets-days .card:nth-child(9) .content a {
-    background: #ffaf00;
+    background: #ff7700;
 }
 
 .container-tarjets-days .card:nth-child(10) .circle,
 .container-tarjets-days .card:nth-child(10) .content a {
-    background: #ffaf00;
+    background: #ff7700;
 }
 
 .container-tarjets-days .card:nth-child(11) .circle,
 .container-tarjets-days .card:nth-child(11) .content a {
-    background: #ffaf00;
+    background: #ff7700;
 }
 
 .container-tarjets-days .card:nth-child(12) .circle,
 .container-tarjets-days .card:nth-child(12) .content a {
-    background: #ffaf00;
+    background: #ff7700;
+}
+
+.container-tarjets-days .card:nth-child(13) .circle,
+.container-tarjets-days .card:nth-child(13) .content a {
+    background: #cd3000;
+}
+
+.container-tarjets-days .card:nth-child(14) .circle,
+.container-tarjets-days .card:nth-child(14) .content a {
+    background: #cd3000;
+}
+
+.container-tarjets-days .card:nth-child(15) .circle,
+.container-tarjets-days .card:nth-child(15) .content a {
+    background: #cd3000;
+}
+
+.container-tarjets-days .card:nth-child(16) .circle,
+.container-tarjets-days .card:nth-child(16) .content a {
+    background: #cd3000;
+}
+
+.container-tarjets-days .card:nth-child(17) .circle,
+.container-tarjets-days .card:nth-child(17) .content a {
+    background: #ff3c00;
+}
+
+.container-tarjets-days .card:nth-child(18) .circle,
+.container-tarjets-days .card:nth-child(18) .content a {
+    background: #ff3c00;
+}
+
+.container-tarjets-days .card:nth-child(19) .circle,
+.container-tarjets-days .card:nth-child(19) .content a {
+    background: #ff3c00;
+}
+
+.container-tarjets-days .card:nth-child(20) .circle,
+.container-tarjets-days .card:nth-child(20) .content a {
+    background: #ff0000;
+}
+
+.container-tarjets-days .card:nth-child(21) .circle,
+.container-tarjets-days .card:nth-child(21) .content a {
+    background: #cb0ae5;
+}
+
+.container-tarjets-days .card:nth-child(22) .circle,
+.container-tarjets-days .card:nth-child(22) .content a {
+    background: #cb0ae5;
+}
+
+.container-tarjets-days .card:nth-child(23) .circle,
+.container-tarjets-days .card:nth-child(23) .content a {
+    background: #cb0ae5;
+}
+
+.container-tarjets-days .card:nth-child(24) .circle,
+.container-tarjets-days .card:nth-child(24) .content a {
+    background: #c500df;
+}
+
+.container-tarjets-days .card:nth-child(25) .circle,
+.container-tarjets-days .card:nth-child(25) .content a {
+    background: #928294;
+}
+
+.container-tarjets-days .card:nth-child(26) .circle,
+.container-tarjets-days .card:nth-child(26) .content a {
+    background: #928294;
+}
+
+.container-tarjets-days .card:nth-child(27) .circle,
+.container-tarjets-days .card:nth-child(27) .content a {
+    background: #928294;
+}
+
+.container-tarjets-days .card:nth-child(28) .circle,
+.container-tarjets-days .card:nth-child(28) .content a {
+    background: #928294;
+}
+
+.container-tarjets-days .card:nth-child(29) .circle,
+.container-tarjets-days .card:nth-child(29) .content a {
+    background: #000000;
+}
+
+.container-tarjets-days .card:nth-child(30) .circle,
+.container-tarjets-days .card:nth-child(30) .content a {
+    background: #000000;
 }
 
 
