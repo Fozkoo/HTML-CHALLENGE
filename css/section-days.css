@@ -1,0 +1,168 @@
+.container-tarjets-days {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+.tarjet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-tarjets-days {
+    display: flex;
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.container-tarjets-days .card {
+    position: relative;
+    width: 280px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.card:hover .card {
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+ .card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container-tarjets-days .card .circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+.container-tarjets-days .card .circle h2 {
+    color: #fff;
+    font-size: 4.5em;
+    padding: 30px 0;
+}
+
+.container-tarjets-days .card .content {
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    page-break-after: 20px;
+    text-align: center;
+}
+
+.container-tarjets-days .card .content p {
+    color: #666;
+}
+
+.container-tarjets-days .card .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.container-tarjets-days .card:nth-child(1) .circle,
+.container-tarjets-days .card:nth-child(1) .content a {
+    background: #7eea75;
+}
+
+.container-tarjets-days .card:nth-child(2) .circle,
+.container-tarjets-days .card:nth-child(2) .content a {
+    background: #7eea75;
+}
+
+.container-tarjets-days .card:nth-child(3) .circle,
+.container-tarjets-days .card:nth-child(3) .content a {
+    background: #7eea75;
+}
+
+.container-tarjets-days .card:nth-child(4) .circle,
+.container-tarjets-days .card:nth-child(4) .content a {
+    background: #7eea75;
+}
+
+.container-tarjets-days .card:nth-child(5) .circle,
+.container-tarjets-days .card:nth-child(5) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(6) .circle,
+.container-tarjets-days .card:nth-child(6) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(7) .circle,
+.container-tarjets-days .card:nth-child(7) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(8) .circle,
+.container-tarjets-days .card:nth-child(8) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(9) .circle,
+.container-tarjets-days .card:nth-child(9) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(10) .circle,
+.container-tarjets-days .card:nth-child(10) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(11) .circle,
+.container-tarjets-days .card:nth-child(11) .content a {
+    background: #ffaf00;
+}
+
+.container-tarjets-days .card:nth-child(12) .circle,
+.container-tarjets-days .card:nth-child(12) .content a {
+    background: #ffaf00;
+}
+
+
+
+
+
+
+
+/*
+
+background: #bb02ff;
+
+background: #da2268;
+
+background: #ffaf00;
+
+*/
+
+
+
+@media (max-width:978px) {
+    .tarjet {
+        display: flex;
+        flex-direction: c;
+    }
+}
