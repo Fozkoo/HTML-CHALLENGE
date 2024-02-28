@@ -119,3 +119,8 @@
     
 }
 
+@media (max-width:978px) {
+    .tittle {
+        display: none;
+    }
+}

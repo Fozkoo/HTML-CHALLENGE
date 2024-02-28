@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
     height: 50px;
     width: 300px;
 }
@@ -18,6 +19,7 @@
 .contain-flags {
     cursor: pointer;
     display: flex;
+    margin-left: 10px;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -42,4 +44,61 @@ nav a {
     font-size: 16px;
     margin-top: 3px;
     font-weight: 500;
+}
+
+
+@media (max-width:978px) {
+
+    
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.container-objets-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    height: 100px;
+    width: 350px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 7px;
+    font-size: 18px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+.contain-flags {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin-left: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#idioma, #practica, #contacto {
+    display: none;
+}
+.contain-flags img {
+    height: 30px;
+}
+
+
+
+
 }
