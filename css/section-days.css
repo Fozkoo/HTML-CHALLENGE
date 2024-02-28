@@ -252,8 +252,17 @@ background: #ffaf00;
 
 
 @media (max-width:978px) {
+
+    .container-tarjets-days {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+    }
+
+
     .tarjet {
         display: flex;
-        flex-direction: c;
+        
     }
 }
