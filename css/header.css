@@ -16,13 +16,16 @@
 }
 
 .contain-flags {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .contain-flags img {
-    height: 30px;
+    height: 27px;
+    
 }
 
 nav ul {
@@ -37,6 +40,6 @@ nav a {
     color: white;
     margin-right: 7px;
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: 3px;
     font-weight: 500;
 }
