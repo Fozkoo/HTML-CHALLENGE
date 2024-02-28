@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d109e6",endColorstr="#ff9843",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bd1fb7",endColorstr="#fe9d35",GradientType=1);
+    font-family: "Red Hat Text", sans-serif;
+}   
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #ad00ab 0%, rgba(15,51,92,1) 90% );
+}

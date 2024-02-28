@@ -1,0 +1,121 @@
+.container-global-tittle-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    height: 1000px;
+}
+
+.tittle-h1{
+    display: flex;
+    margin-top: 100px;
+}
+
+.tittle-h1 h1::after {
+    content: ".";
+    color: rgb(255, 255, 255); /* Cambia #ff0000 al código de color que desees */
+}
+
+.tittle-h1 h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 9px;
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+
+
+
+.contain-logo-html {
+    display: flex;
+    margin-top: 50px;
+}
+
+.contain-logo-html img {
+    height: 330px;
+}
+
+.contain-logo-html img {
+    transition: transform 0.9s ease-in-out;
+}
+
+.contain-logo-html img:hover {
+    transform: scale(1.1);
+}
+
+
+.contain-info-text {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+}
+
+.contain-info-text span {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.contain-social {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100px;
+}
+
+.contain-social a {
+    text-decoration: none;
+}
+
+.x-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.x-social span {
+    color: white;
+    font-weight: 500;
+}
+
+
+.x-social img {
+    height: 25px;
+    
+}
+
+
+.git-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.git-social span {
+    color: white;
+    font-weight: 500;
+}
+
+
+.git-social img {
+    height: 25px;
+    
+}
+
