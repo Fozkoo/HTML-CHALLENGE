@@ -1,28 +1,39 @@
 
-
 .container-fluid {
+    background-color: blue;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     height: 80px;
 }
 
 .container-objets-nav {
+    background-color: red;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 0px;
     height: 50px;
-    width: 350px;
+    width: 100%;
 }
+
+.container-objets-nav a{
+    position: relative;
+    left: 0px;
+    
+}
+
+
+
 
 .contain-flags {
     cursor: pointer;
     display: flex;
-    margin-left: 10px;
+    margin-left: 0px;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    margin-left: auto;
+    gap: 10px;
 }
 
 .contain-flags img {
@@ -35,15 +46,23 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    margin-right: 7px;
-    font-size: 16px;
-    margin-top: 3px;
+    margin-right: 0px;
+    font-size: 17px;
+    margin-top: 0px;
     font-weight: 500;
+}
+
+
+#home  {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }
 
 

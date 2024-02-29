@@ -1,3 +1,22 @@
+.ttitle-days {
+    display: flex;
+    margin-top: 100px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttitle-days h2{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 9px;
+}
+
+
+
 .container-tarjets-days {
     margin-top: 55px;
     display: flex;
