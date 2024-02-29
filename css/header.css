@@ -1,6 +1,5 @@
 
 .container-fluid {
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +7,12 @@
 }
 
 .container-objets-nav {
-    background-color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: red;
     align-items: center;
-    margin-right: 0px;
-    height: 50px;
+    margin-top: 15px;
+    height: 80px;
     width: 100%;
 }
 
@@ -29,7 +28,7 @@
 .contain-flags {
     cursor: pointer;
     display: flex;
-    margin-left: 0px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
