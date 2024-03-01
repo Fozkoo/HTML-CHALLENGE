@@ -1,4 +1,6 @@
 .container-header {
+    z-index: 1;
+    position: relative;
     display: flex;
     justify-content: center;
     height: 100px;
@@ -6,9 +8,13 @@
 
 .contain-options {
     display: flex;
+    position: relative;
+    left: 16px;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    transition: background-size 0.3s ease-in-out;
+    
 }
 
 .contain-options a {
@@ -16,6 +22,35 @@
     color: white;
     font-weight: 600;
     font-size: 17px;
+    
+}
+
+
+.contain-options a::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    bottom: -2px;
+    transform: scaleX(0); /* Inicialmente, establece la escala X a cero */
+    transform-origin: right center;
+    transition: transform 0.4s ease-in-out; /* Agrega una transición suave a transform */
+}
+
+.contain-options a:hover::after {
+    transform: scaleX(1); /* Al pasar el ratón, establece la escala X a 1 */
+    transform-origin: left center;
+}
+
+#home {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+}
+
+.contain-options a:hover {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
 }
 
 
@@ -32,5 +67,39 @@
 }
 
 .contain-flags img {
-    height: 37px;
+    height: 34px;
+}
+
+
+@media (max-width:978px) {
+
+
+    .container-header {
+        z-index: 1;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+
+    .contain-flags {
+        display: flex;
+        height: 100px;
+        position: relative;
+        margin-left: 0;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .contain-flags img {
+        height: 34px;
+    }
+
+
+
+
+
+    .contain-options {
+        display: none;
+    }
 }

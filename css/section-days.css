@@ -272,8 +272,27 @@ background: #ffaf00;
 
 @media (max-width:978px) {
 
+
+    .ttitle-days {
+        display: flex;
+        margin-top: 100px;
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ttitle-days h2{
+        font-weight: 700;
+        font-size: 50px;
+        color: white;
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+        text-underline-offset: 9px;
+    }
+
     .container-tarjets-days {
-        margin-top: 0px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         width: 1200px;
