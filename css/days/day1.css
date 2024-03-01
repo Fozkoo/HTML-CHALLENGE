@@ -1,0 +1,38 @@
+.container-tittle-dia1 {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.contain-h1 h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 9px;
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.consigna {
+    display: flex;
+    align-items: center;
+
+}
+
+.consigna span {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
