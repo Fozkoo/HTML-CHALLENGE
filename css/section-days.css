@@ -21,7 +21,7 @@
     margin-top: 55px;
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 100px;
 }
 .tarjet {
     display: flex;
@@ -44,7 +44,7 @@
 .container-tarjets-days .card {
     position: relative;
     width: 280px;
-    height: 420px;
+    height: 450px;
     background: #fff;
     margin: 20px;
     border-radius: 20px;

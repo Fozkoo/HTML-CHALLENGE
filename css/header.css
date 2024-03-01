@@ -44,11 +44,13 @@
 }
 
 #home {
+    
     text-decoration-thickness: 1px;
     text-underline-offset: 6px;
 }
 
 .contain-options a:hover {
+    color: white !important;
     text-decoration-thickness: 1px;
     text-underline-offset: 6px;
 }

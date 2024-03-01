@@ -1,0 +1,31 @@
+
+.contact-wrap {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.info-wrap {
+
+    background-color: white;
+    border-radius: 0px 20px 20px;
+
+}
+
+
+
+@media(max-width:978px) {
+
+    .contact-wrap {
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .info-wrap {
+    
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+    
+    }
+    
+
+}
+
+
