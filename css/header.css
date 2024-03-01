@@ -1,122 +1,36 @@
-
-.container-fluid {
+.container-header {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 80px;
-}
-
-.container-objets-nav {
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    align-items: center;
-    margin-top: 15px;
-    height: 80px;
-    width: 100%;
-}
-
-.container-objets-nav a{
-    position: relative;
-    left: 0px;
-    
-}
-
-
-
-
-.contain-flags {
-    cursor: pointer;
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    gap: 10px;
-}
-
-.contain-flags img {
-    height: 27px;
-    
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    margin-right: 0px;
-    font-size: 17px;
-    margin-top: 0px;
-    font-weight: 500;
-}
-
-
-#home  {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
-}
-
-
-@media (max-width:978px) {
-
-    
-.container-fluid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100px;
 }
 
-.container-objets-nav {
+.contain-options {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0px;
-    height: 100px;
-    width: 350px;
+    gap: 30px;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav a {
+.contain-options a {
     text-decoration: none;
     color: white;
-    margin-right: 7px;
-    font-size: 18px;
-    margin-top: 3px;
     font-weight: 600;
+    font-size: 17px;
 }
+
+
+
+
+
 .contain-flags {
-    position: relative;
-    cursor: pointer;
     display: flex;
-    margin-left: 0px;
-    left: 0px;
-    justify-content: center;
+    height: 100px;
+    position: absolute;
+    margin-left: 90%;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
-#idioma, #practica, #contacto {
-    display: none;
-}
+
 .contain-flags img {
-    height: 30px;
-}
-
-
-
-
+    height: 37px;
 }
