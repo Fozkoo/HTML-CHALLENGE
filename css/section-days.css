@@ -308,5 +308,61 @@ background: #ffaf00;
 
 @media (max-width:1600px){
 
-        
+    .ttitle-days {
+        display: flex;
+        margin-top: 100px;
+        height: 80px;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ttitle-days h2{
+        font-weight: 700;
+        font-size: 50px;
+        color: white;
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+        text-underline-offset: 9px;
+    }
+
+    .container-tarjets-days {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .tarjet {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container-tarjets-days {
+        display: flex;
+        position: relative;
+        width: 1150px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
+    .container-tarjets-days .card {
+        position: relative;
+        width: 230px;
+        height: 420px;
+        background: #fff;
+        margin: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+        transition: 0.5s;
+    }
+
+
+
+
 }
