@@ -10,6 +10,16 @@
 
 }
 
+.col-md-6 h2 {
+    font-size: 80px;
+    color: white;
+    font-family: Red Hat Text;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 9px;
+}
+
 
 
 @media(max-width:978px) {
@@ -27,5 +37,6 @@
     
 
 }
+
 
 
