@@ -8,11 +8,13 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d109e6",endColorstr="#ff9843",GradientType=1);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bd1fb7",endColorstr="#fe9d35",GradientType=1);
     font-family: "Red Hat Text", sans-serif;
+    
 }   
 
 
 body {
-    background: radial-gradient(farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90%) !important;
+    background-color: #ad00aac9;
+    background: radial-gradient(farthest-corner at 83.7% 4.3%,  #ad00ab 0%, rgba(15,51,92,1) 90%) !important;
 }
 
 .container-total {
