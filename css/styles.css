@@ -12,9 +12,7 @@
 
 
 body {
-    background-image: radial-gradient(farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90%) !important;
-
-
+    background: radial-gradient(farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90%) !important;
 }
 
 .container-total {
