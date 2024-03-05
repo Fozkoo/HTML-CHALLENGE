@@ -21,6 +21,12 @@
 }
 
 
+@media (max-width: 1600px){
+    .tarjet h2 {
+        font-size: 60px !important;
+    }
+}
+
 
 
 @media(max-width:978px) {
