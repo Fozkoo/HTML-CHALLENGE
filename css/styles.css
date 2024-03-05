@@ -11,13 +11,13 @@
 
 
 body {
-    background-color: #891c95 !important;
+    background-color: rgba(137, 28, 149, 0.825) !important;
 }
 
 .container-total {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(farthest-corner at 83.7% 4.3%, rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    background: radial-gradient(farthest-corner at 83.7% 4.3%, #ad00ab 0%, rgba(15,51,92,1) 90% );
 
 }
 
