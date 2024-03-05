@@ -22,7 +22,14 @@
 
 
 
+
 @media(max-width:978px) {
+
+
+    .tarjet h2 {
+        font-size: 60px !important;
+    }
+
 
     .contact-wrap {
         border-radius: 20px 20px 0px 0px;
