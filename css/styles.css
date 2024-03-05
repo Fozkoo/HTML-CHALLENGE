@@ -13,7 +13,7 @@
 
 
 body {
-    background-color: #ad00aac9;
+    background-color: #ad00aac9 !important;
     background: radial-gradient(farthest-corner at 83.7% 4.3%,  #ad00ab 0%, rgba(15,51,92,1) 90%) !important;
 }
 
