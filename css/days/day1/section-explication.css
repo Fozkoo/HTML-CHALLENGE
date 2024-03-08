@@ -130,7 +130,7 @@
         height: 500px;
         transition: 0.9s;
         cursor: pointer;
-        margin-top: 0px;
+        margin-top: 40px;
     }
 
     
@@ -151,6 +151,10 @@
     max-width: 100%;
     max-height: 100%;
 }
+.contenido {
+    height: 1200px;
+}
+
 
 
 }
