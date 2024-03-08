@@ -36,3 +36,51 @@
     font-weight: 500;
 }
 
+
+@media (max-width:1600px){
+
+    
+    .contain-h1 h1 {
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+        text-underline-offset: 9px;
+        color: white;
+        font-size: 3em;
+        font-weight: 700;
+    }
+    
+    .consigna span {
+        color: white;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    
+
+}
+
+
+@media (max-width:978px){
+
+    .contain-h1 h1 {
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+        text-underline-offset: 9px;
+        color: white;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    
+    .consigna {
+        display: flex;
+        text-align: center;
+    }
+    
+    .consigna span {
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+}
+
+

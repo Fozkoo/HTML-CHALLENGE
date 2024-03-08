@@ -25,6 +25,17 @@
     .tarjet h2 {
         font-size: 60px !important;
     }
+
+    .col-md-6 h2  {
+        font-size: 60px;
+    }
+
+
+    .contenedor-form {
+    }
+
+
+
 }
 
 
